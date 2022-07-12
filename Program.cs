@@ -108,12 +108,12 @@ namespace ProjectPenjualan
             
             Console.WriteLine("Data Penjualan\n");
 
-            int no = 1;
+            int nomer = 1;
             foreach (Penjualan daftar in daftarPenjualan)
             {
                 Console.WriteLine("{0}. {1}, {2}, {3}, {4}, {5}",
-                no, daftar.note, daftar.Date, daftar.Customer, daftar.type, daftar.Total);
-                no++;
+                nomer, daftar.note, daftar.Date, daftar.Customer, daftar.type, daftar.Total);
+                nomer++;
             }
 
             Console.WriteLine("\nTekan enter untuk kembali ke menu");
